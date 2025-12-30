@@ -8,8 +8,8 @@ public class ServerMain {
 
     private static final int PORT = 5000;
 
-    public static void main(String[] args) {
-        System.out.println("Server starting on port " + 5000);
+    public static void maiqn(String[] args) {
+        System.out.println("Server starting on port " + PORT);
 
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
 
